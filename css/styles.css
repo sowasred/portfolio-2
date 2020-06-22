@@ -232,6 +232,29 @@ Navbar
   cursor: pointer;
   justify-self: end;
 }
+.resume {
+  display: none;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  font-size: 2em !important;
+}
+.resume:active {
+  text-decoration: none;
+}
+.btn2 {
+  font-size: 1.2em;
+  color: black;
+  padding: 0.5em;
+  background-color: white;
+  width: max-content;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.btn2:hover {
+  opacity: 0.6;
+}
+
 @media screen and (min-width: 768px) {
   .nav {
     background: var(--clr-primary-10);
