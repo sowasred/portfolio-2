@@ -235,7 +235,7 @@ Navbar
 .resume {
   display: none;
   align-items: center;
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 2em !important;
 }
@@ -244,12 +244,12 @@ Navbar
 }
 .btn2 {
   font-size: 1.2em;
-  color: black;
   padding: 0.5em;
-  background-color: white;
+  background-color: black;
   width: max-content;
   font-weight: 700;
   border-radius: 10px;
+  color: white;
 }
 .btn2:hover {
   opacity: 0.6;
